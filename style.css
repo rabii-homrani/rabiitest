@@ -5,77 +5,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* Default Light Mode Styles */
-:root {
-  --primary-color: #000;
-  --secondary-color: #fff;
-  --background-color: #f8f9fa;
-  --accent-color: #007bff;
-  --shadow-color: rgba(0, 0, 0, 0.1);
-}
-
-body {
-  background-color: var(--background-color);
-  color: var(--primary-color);
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-/* Dark Mode Styles */
-.dark-mode {
-  --primary-color: #fff;
-  --secondary-color: #1a1a1a;
-  --background-color: #121212;
-  --accent-color: #ff9800;
-  --shadow-color: rgba(255, 255, 255, 0.1);
-}
-
-/* Navigation Bar */
-.nav-bar {
-  background: var(--secondary-color);
-  box-shadow: 0px 4px 10px var(--shadow-color);
-}
-
-.nav-list ul li a {
-  color: var(--primary-color);
-}
-
-/* Hero Section */
-#hero {
-  background: var(--secondary-color);
-}
-
-.cta {
-  background: var(--accent-color);
-  color: var(--secondary-color);
-}
-
-/* Service Section */
-.service-item {
-  background: var(--secondary-color);
-  box-shadow: 0px 4px 10px var(--shadow-color);
-}
-
-/* Footer */
-#footer {
-  background: var(--secondary-color);
-  color: var(--primary-color);
-}
-
-/* Dark Mode Toggle Button */
-.dark-mode-toggle {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  background: var(--accent-color);
-  color: var(--secondary-color);
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 20px;
-  font-size: 16px;
-  box-shadow: 0px 4px 10px var(--shadow-color);
-}
-
 
 html {
   font-size: 10px;
@@ -169,13 +98,10 @@ p {
 
 #header .header {
   min-height: 8vh;
-  /* background-color: rgba(31, 30, 30, 0.24); */
   transition: 0.3s ease background-color;
   background: rgba(255, 255, 255, 0.036);
   box-shadow: 0 8px 32px 0 rgba(78, 8, 8, 0.37);
   backdrop-filter: blur( 5px );
-  /* -webkit-backdrop-filter: blur( 5px ); */
-  /* border-radius: 10px; */
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
