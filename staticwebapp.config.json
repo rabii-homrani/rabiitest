@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "route": "/#projects",
+      "methods": [
+        "get"
+      ],
+      "statusCode": 302
+    }
+  ]
+}
